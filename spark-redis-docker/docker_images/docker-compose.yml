@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  web:
+    image: spark-redis
+    container_name: spark-redis
+    build:
+      context: ./web
